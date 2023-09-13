@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Пример HTML формы</title>
+</head>
+<body>
+
+<form>
+  <p align="right">Анкета для читателя:</p>
+
+  <label for="name">Введите регистрационное имя:</label>
+  <input type="text" id="name" name="name"><br><br>
+
+
+
+  <label for="password">Введите пароль:</label>
+  <input type="password" id="password" name="password"><br><br>
+
+  <label>Ваш возраст:</label><br>
+  <label for="age_young">до 20 лет</label>
+  <input type="radio" id="age_young" name="age" value="<20"><br>
+  <label for="age_average">от 20 до 30 лет</label>
+  <input type="radio" id="age_average" name="age" value="20-30"><br>
+  <label for="age_old">Старше 30 лет</label>
+  <input type="radio" id="age_old" name="age" value=">30"><br><br>
+
+
+  <label for="country">Страна:</label>
+  <select id="country" name="country">
+    <option value="russia">Россия</option>
+    <option value="usa">США</option>
+    <option value="canada">Канада</option>
+  </select><br><br>
+
+  <label>Как вы узнаете о новых книгах?</label><br>
+  <input type="checkbox" id="new_friends" name="new_book" value="new_friends">
+  <label for="new_friends">От друзей</label><br>
+  <input type="checkbox" id="internet" name="new_book" value="internet">
+  <label for="internet">Интернет</label><br>
+  <input type="checkbox" id="shop" name="new_book" value="shop">
+  <label for="shop">В книжных иагазинах</label><br>
+  <input type="checkbox" id="target" name="new_book" value="target">
+  <label for="target">Реклама</label><br>
+
+
+  <br>
+  <label for="message">Сообщение:</label>
+  <textarea id="message" name="message"></textarea><br><br>
+
+  <input type="submit" value="Отправить">
+</form>
+</body>
+</html>
