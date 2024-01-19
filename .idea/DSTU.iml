@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/kurs_1/kurs_1" />
       <excludeFolder url="file://$MODULE_DIR$/kurs_1/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
